@@ -1,0 +1,6 @@
+v = float(input('Valor da casa: R$'))
+s = float(input('Salário do comprador: R$'))
+t = int(input(f'Quantos anos de financiamento para os R${v:.2f}? '))
+p = v / (t * 12)
+print(f'Para pagar uma casa de R${v:.2f} em {t} anos a prestação será de R${p:.2f}.')
+print('Empréstimo pode ser CONCEDIDO!' if s * 0.3 >= p else 'Empréstimo NEGADO!')
