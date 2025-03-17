@@ -1,3 +1,5 @@
 from cores import cores
-n = int(input(f'{cores['roxo']}Me diga um número qualquer:{cores['limpa']} {cores['verde']}'))
-print(f'{cores['limpa']}O número {n} é {cores['azul']}PAR{cores['limpa']}' if n % 2 == 0 else f'O número {n} é {cores['azul']}ÍMPAR{cores['limpa']}')
+
+
+n = int(input(f'{cores[6]}Me diga um número qualquer:{cores[0]} {cores[3]}'))
+print(f'{cores[0]}O número {n} é {cores[5]}PAR{cores[0]}' if n % 2 == 0 else f'O número {n} é {cores[5]}ÍMPAR{cores[0]}')
