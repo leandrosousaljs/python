@@ -1,5 +1,5 @@
-from cores import cores
+from utils.cores import Cores
 
 
-n = int(input(f'{cores[6]}Me diga um número qualquer:{cores[0]} {cores[3]}'))
-print(f'{cores[0]}O número {n} é {cores[5]}PAR{cores[0]}' if n % 2 == 0 else f'O número {n} é {cores[5]}ÍMPAR{cores[0]}')
+n = int(input(f'{Cores.roxo}Me diga um número qualquer:{Cores.reset} {Cores.verde}'))
+print(f'{Cores.reset}O número {n} é {Cores.azul}PAR{Cores.reset}' if n % 2 == 0 else f'O número {n} é {Cores.azul}ÍMPAR{Cores.reset}')
